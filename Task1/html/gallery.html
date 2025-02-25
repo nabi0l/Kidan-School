@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kidan Elementary School</title>
+    <link rel="stylesheet" href="../Css/gallery.css" />
+    <link
+      rel="stylesheet"
+      href="../Assests/fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <i class="fa fa-school"></i>
+          <h1>Kidan</h1>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="aboutpage.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="menu">
+          <i class="fa fa-bars"></i>
+        </div>
+      </nav>
+      
+      <ul class="dropdown-menu">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="aboutpage.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <section class="gallery">
+      <h2>Welcome to our gallery!</h2>
+      <p>
+        Explore special moments at Kidan. See our students learning, playing,
+        and growing through fun activities and events
+      </p>
+      <div class="nav-link">
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#" onclick="showCategory('all')">All</a></li>
+            <li><a href="#" onclick="showCategory('classroom')">Our Classrooms</a></li>
+            <li><a href="#" onclick="showCategory('events')">Achievements and Events</a></li>
+            <li><a href="#" onclick="showCategory('bedroom')">School bedroom</a></li>
+            <li><a href="#" onclick="showCategory('library')">Library & Reading Spaces</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="image-container">
+        <div id="all" class="general-image">
+          <img src="../Assests/Images/class.jpg" alt="Image 1" />
+          <img src="../Assests/Images/classroom.jpg" alt="Image 2" />
+          <img src="../Assests/Images/lib.jpg" alt="Image 3" />
+          <img src="../Assests/Images/library.jpg" alt="Image 4" />
+          <img src="../Assests/Images/bedroom.jpg" alt="Image 5" />
+          <img src="../Assests/Images/ach1.jpg" alt="image 6" />
+          <img src="../Assests/Images/even3.jpg" alt="image 7" />
+          <img src="../Assests/Images/bed2.jpg" alt="image 8" />
+        </div>
+
+        <div id="classroom" class="category">
+            <img src="../Assests/Images/clas1.jpg" alt="Classroom 1">
+            <img src="../Assests/Images/clas2.jpg" alt="Classroom 2">
+            <img src="../Assests/Images/class.jpg" alt="Classroom 3">
+            <img src="../Assests/Images/classroom.jpg" alt="Classroom 4">
+            <img src="../Assests/Images/Classroom Games_ How to Use Word Splash - TeachHUB.jpg" alt="Classroom 5">
+          </div>
+        
+          <div id="bedroom" class="category">
+            <img src="../Assests/Images/bed1.jpg" alt="Bedroom 1">
+            <img src="../Assests/Images/bed2.jpg" alt="Bedroom 2">
+            <img src="../Assests/Images/bedroom.jpg" alt="Bedroom 3">
+          </div> 
+
+        <div id="library" class="category">
+            <img src="../Assests/Images/lib.jpg" alt="Library 1">
+            <img src="../Assests/Images/lib1.jpg" alt="Library 2">
+            <img src="../Assests/Images/lib2.jpg" alt="Library 3">
+            <img src="../Assests/Images/lib3.jpg" alt="Library 4">
+            <img src="../Assests/Images/library.jpg" alt="Library 5">
+          </div>
+
+        <div id="events" class="category">
+            <img src="../Assests/Images/even1.jpg" alt="Event 1">
+            <img src="../Assests/Images/even2.jpg" alt="Event 2">
+            <img src="../Assests/Images/even3.jpg" alt="Event 3">
+            <img src="../Assests/Images/even4.jpg" alt="Event 4">
+            <img src="../Assests/Images/ach1.jpg" alt="Event 5">
+            <img src="../Assests/Images/achi1.jpg" alt="Event 6">
+            <img src="../Assests/Images/achi2.jpg" alt="Event 7">
+          </div>
+      </div>
+    </section>
+
+    <footer class="footer-content">
+      <div class="address">
+        <p>School Address</p>
+        <p>Kidan Elementary School, Addis Ababa, Ethiopia</p>
+        <p>Phone: (+251) 98-789-1230</p>
+        <p>Email: ki123@school.com</p>
+      </div>
+
+      <div class="pages">
+        <a href="homepage.html">Home</a>
+        <a href="aboutpage.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="social">
+        <div class="link">
+        <p>Connect with us</p>
+        <br/>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fab fa-instagram"></i>
+
+      </div>
+        <div class="copy">
+          <p>&copy; 2021 Kidan Elementary School. All rights reserved.</p>
+        </div>
+      </div>
+   
+    </footer>
+    <script src="../Js/gallery.js"></script>
+  </body>
+</html>
